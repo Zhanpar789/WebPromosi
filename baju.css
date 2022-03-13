@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  header{
+    background-color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+  }
+  .logorock{
+    display: flex;
+    margin-left: 30px;
+  }
+  .judul{
+    display: flex;
+    justify-content: right;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    font-family: 'Mulish', sans-serif;
+    margin-right: 600px;
+    margin-top: 10px;
+  }
+  .list{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .list li{
+    display: flex;
+  }
+  .list li a{
+    color: rgb(255, 251, 251);
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: bold;
+    transition: 0.5s;
+    font-family: 'Secular One', sans-serif;
+  }
+  .list li a:hover{
+    color: rgb(202, 35, 35);
+  }
+  .kotak4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  .kotak4dalam{
+    background-color: black;
+    padding-right: 600px;
+    padding-left: 609px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+  .kotak4judul{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Secular One', sans-serif;
+  }
+  .kotak3{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 400px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    margin: 35px;
+  }
+  .kotak3judul{
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+    transition: 0.5s;
+  }
+  .kotak3judul:hover{
+    color: brown;
+  }
+  .kotak3dalam{
+    background-color: black;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .kotak3dalamdalam{
+    margin-left: 20px;
+  }
+  .kotak3bacotan{
+    color: rgb(255, 255, 249);
+    font-family: 'Luxurious Roman', cursive;
+  }
+  
+  .wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+  }
+  .wrapper div{
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .hover-animation{
+    position: relative;
+    height: 200px;
+    width: 250px;
+  }
+  .hover-animation img{
+    position: absolute;
+    margin-left: 0px;
+    left: 0;
+    height: 290px;
+    width: 265px;
+    transition: opacity 1s ease-in-out;
+  }
+  .hover-animation img.baju-belakang:hover{
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .baju1{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(172, 44, 44);
+    margin-left: 77px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju1:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori1{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 86px;
+    transition: 0.5s;
+  }
+  .idr1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 77px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju2{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 70px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju2:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori2{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 66px;
+    transition: 0.5s;
+  }
+  .idr2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju3{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 85px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju3:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori3{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 84px;
+    transition: 0.5s;
+  }
+  .idr3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju4{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 65px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju4:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori4{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 30px;
+    transition: 0.5s;
+  }
+  .idr4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .wrapper2{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-top: 410px;
+  }
+  .wrapper2 div{
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-top: 40px;
+    margin-bottom: 00px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .wrapper3{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-top: 870px;
+  }
+  .wrapper3 div{
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-top: 40px;
+    margin-bottom: 00px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .kotak6{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    margin: 35px;
+  }
+  .kotak6judul{
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+    transition: 0.5s;
+  }
+  .kotak6judul:hover{
+    color: brown;
+  }
+  .kotak6dalam{
+    background-color: black;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 1350px;
+    margin-bottom: 0px;
+  }
+  
+  .kotak6dalamdalam{
+    margin-left: 20px;
+  }
+  .kotak6bacotan{
+    color: rgb(255, 255, 249);
+    font-family: 'Luxurious Roman', cursive;
+  }
+  .wrapper4{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+  }
+  .wrapper4 div{
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-top: 40px;
+    margin-bottom: 00px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  .penutup{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+    margin-left: 340px;
+  }
+  
+  .sponsor{
+    margin-left: 220px;
+  }
+  .sponsor img{
+    padding: 10px;
+  }
+  .kotak5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    padding: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 300px;
+  }
+  .kotak5judul{
+    font-size: 35px;
+    font-weight: 570;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Secular One', sans-serif;
+    margin-left: 15px;
+   }
+   .box3{
+     display: flex;
+     justify-content: space-around;
+   }
+   .alamat{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 0px;
+    width: 90vh;
+    padding-left: 100px;
+    padding-right: 100px;
+   }
+   .isialamat{
+     margin-top: 30px;
+     font-size: 25px;
+   }
+   .fb{
+     font-size: 40px;
+     background-color: white;
+     color: black;
+     padding: 10px;
+     border-radius: 40px;
+     margin-left: 20px;
+     transition: 0.5s;
+   }
+   .fb:hover{
+     background-color: rgb(161, 17, 17);
+     color: white;
+   }
+   .ig{
+     font-size: 40px;
+     background-color: white;
+     color: black;
+     padding: 10px;
+     border-radius: 40px;
+     margin-left: 20px;
+     transition: 0.5s;
+   }
+   .ig:hover{
+    background-color: rgb(161, 17, 17);
+    color: rgb(255, 255, 255);
+  }
+   .yt{
+     font-size: 40px;
+     background-color: white;
+     color: black;
+     padding: 10px;
+     border-radius: 40px;
+     margin-left: 20px;
+     transition: 0.5s;
+   }
+   .yt:hover{
+    background-color: rgb(161, 17, 17);
+    color: rgb(255, 255, 255);
+   }
+   .tw{
+     font-size: 40px;
+     background-color: white;
+     color: black;
+     padding: 10px;
+     border-radius: 40px;
+     margin-left: 20px;
+     transition: 0.5s;
+   }
+   .tw:hover{
+    background-color: rgb(161, 17, 17);
+    color: rgb(255, 255, 255);
+   }
