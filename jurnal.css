@@ -54,9 +54,20 @@
     transition: 0.5s;
     font-family: 'Secular One', sans-serif;
   }
+  .list li .warnajurnal{
+    color: rgb(202, 35, 35);
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: bold;
+    transition: 0.5s;
+    font-family: 'Secular One', sans-serif;
+  }
   .list li a:hover{
     color: rgb(202, 35, 35);
   }
+  
   .kotak4{
     display: flex;
     flex-direction: column;

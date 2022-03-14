@@ -147,7 +147,7 @@
     font-weight: bold;
     font-family: sans-serif;
     color: rgb(172, 44, 44);
-    margin-left: 75px;
+    margin-left: 77px;
     margin-top: 20px;
     transition: 0.5s;
   }
@@ -159,7 +159,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(158, 149, 149);
-    margin-left: 74px;
+    margin-left: 86px;
     transition: 0.5s;
   }
   .idr1{
@@ -178,7 +178,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(172, 44, 44);
-    margin-left: 55px;
+    margin-left: 70px;
     margin-top: 20px;
     transition: 0.5s;
   }
@@ -209,7 +209,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(172, 44, 44);
-    margin-left: 92px;
+    margin-left: 85px;
     margin-top: 20px;
     transition: 0.5s;
   }
@@ -221,7 +221,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(158, 149, 149);
-    margin-left: 58px;
+    margin-left: 84px;
     transition: 0.5s;
   }
   .idr3{
@@ -240,7 +240,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(172, 44, 44);
-    margin-left: 68px;
+    margin-left: 65px;
     margin-top: 20px;
     transition: 0.5s;
   }
@@ -252,382 +252,10 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(158, 149, 149);
-    margin-left: 56px;
+    margin-left: 30px;
     transition: 0.5s;
   }
   .idr4{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju5{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 52px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju5:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori5{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 83px;
-    transition: 0.5s;
-  }
-  .idr5{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju6{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 62px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju6:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori6{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 83px;
-    transition: 0.5s;
-  }
-  .idr6{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju7{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 68px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju7:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori7{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 45px;
-    transition: 0.5s;
-  }
-  .idr7{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju8{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 82px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju8:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori8{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 37px;
-    transition: 0.5s;
-  }
-  .idr8{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju9{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju9:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori9{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 72px;
-    transition: 0.5s;
-  }
-  .idr9{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju10{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 75px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju10:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori10{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 43px;
-    transition: 0.5s;
-  }
-  .idr10{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju11{
-    font-size: 23px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 6px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju11:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori11{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 55px;
-    transition: 0.5s;
-  }
-  .idr11{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju12{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 60px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju12:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori12{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 53px;
-    transition: 0.5s;
-  }
-  .idr12{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju13{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 70px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju13:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori13{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 98px;
-    transition: 0.5s;
-  }
-  .idr13{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju14{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 84px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju14:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori14{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 73px;
-    transition: 0.5s;
-  }
-  .idr14{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju15{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 73px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju15:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori15{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 68px;
-    transition: 0.5s;
-  }
-  .idr15{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(0, 0, 0);
-    margin-left: 79px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju16{
-    font-size: 26px;
-    font-weight: bold;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(172, 44, 44);
-    margin-left: 75px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
-  .baju16:hover{
-    color: rgb(41, 38, 38);
-  }
-  .ori16{
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    color: rgb(158, 149, 149);
-    margin-left: 89px;
-    transition: 0.5s;
-  }
-  .idr16{
     font-size: 18px;
     font-weight: bold;
     font-family: sans-serif;
@@ -657,25 +285,9 @@
     display: flex;
     justify-content: space-around;
     margin-left: 0px;
-    margin-right: 30px;
     margin-top: 870px;
   }
   .wrapper3 div{
-    justify-content: space-around;
-    padding-top: 40px;
-    margin-top: 40px;
-    margin-bottom: 00px;
-    margin-left: 20px;
-    margin-right: 50px;
-  }
-  .wrapper5{
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 0px;
-    margin-top: 1330px;
-  }
-  .wrapper5 div{
     justify-content: space-around;
     padding-top: 40px;
     margin-top: 40px;
@@ -708,7 +320,7 @@
     background-color: black;
     padding-top: 20px;
     margin-bottom: 0px;
-    margin-top: 1850px;
+    margin-top: 1400px;
     margin-bottom: 0px;
   }
   
@@ -729,29 +341,12 @@
   }
   .wrapper4 div{
     justify-content: space-around;
-    padding-top: 40px;
-    margin-top: 40px;
+    padding-top: 5px;
+    margin-top: 65px;
     margin-bottom: 00px;
     margin-left: 20px;
     margin-right: 50px;
   }
-  .wrapper6{
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 2px;
-    margin-top: 470px;
-    padding-bottom: 100px;
-  }
-  .wrapper6 div{
-    justify-content: space-around;
-    padding-top: 40px;
-    margin-top: 40px;
-    margin-bottom: 00px;
-    margin-left: 20px;
-    margin-right: 50px;
-  }
-
   footer{
     display: flex;
     justify-content: center;
@@ -786,7 +381,7 @@
     padding: 70px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 800px;
+    margin-top: 300px;
   }
   .kotak5judul{
     font-size: 35px;

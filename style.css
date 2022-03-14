@@ -184,11 +184,11 @@ a{
   
 }
 .yadika1{
-  height: 200px;
-  width: 500px;
+  width: 365px;
+  height: 210px;
   transition: 0.5s;
-  margin-left: 2px;
-  margin-right: 25px;
+  margin-left: 25px;
+  margin-right: 10px;
 }
 .yadika1:hover{
   transform: scale(1.05);
@@ -261,7 +261,7 @@ a{
   left: 0;
   height: 250px;
   width: 270px;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 .hover-animation img.baju-belakang:hover{
   opacity: 0;
@@ -658,7 +658,7 @@ a{
   left: 0;
   height: 280px;
   width: 260px;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
 }
 .hover-animation img.baju-belakang:hover{
   opacity: 0;
@@ -803,9 +803,6 @@ a{
   margin-top: 20px;
   transition: 0.5s;
 }
-.penjelasan{
-  padding: 0px;
-}
 .kotak4{
   display: flex;
   flex-direction: column;
@@ -831,8 +828,61 @@ a{
   background-color: rgb(255, 255, 255);
   padding: 10px;
   display: flex;
+  margin-left: 20px;
   justify-content: space-around;
-  border-radius: 20px;
+}
+.jurnal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vh;
+  transition: 0.5s;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+.jurnal div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.gambarjurnal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 30px;
+  margin-top: 30px;
+  width: 260px;
+  height: 260px;
+  transition: 0.4s;
+}
+.gambarjurnal:hover{
+  transform: scale(1.0);
+  box-shadow: 2px 5px 22px 2px rgba(0,0,0,0.75);
+
+}
+.juduljurnal{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-left: 4px;
+  transition: 0.4s;
+  color: black;
+}
+.juduljurnal:hover{
+  color: brown;
+}
+.isijurnal{
+    display: flex;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+.penjelasan{
+  display: flex;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 10px;
 }
 .kotak4gambar{
   display: flex;
@@ -843,10 +893,10 @@ a{
   margin-top: 40px;
   width: 295px;
   height: 310px;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 .kotak4gambar:hover{
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 2px 5px 22px 2px rgba(0,0,0,0.75);
 
 }
@@ -878,7 +928,7 @@ footer{
   align-items: center;
   background-color:rgb(0, 0, 0);
   padding: 70px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .kotak5judul{
   font-size: 35px;
@@ -964,17 +1014,19 @@ footer{
   padding: 20px;
   border-radius: 50px;
   background-color: black;
+  color: white;
   display: inline-block;
   margin-left: 590px;
   margin-top: 30px;
   transition: 0.4s;
 }
 .selengkapnya p{
-  color: rgb(161, 17, 17);
   font-family: sans-serif;
   font-weight: bold;
+  font-size: 20px;
 }
 .selengkapnya:hover{
+  color: rgb(202, 35, 35);
   opacity: 0.8;
 }
 .selengkapnya2{
@@ -982,34 +1034,38 @@ footer{
   padding: 20px;
   border-radius: 50px;
   background-color: black;
+  color: white;
   display: inline-block;
   margin-left: 590px;
   margin-top: 60px;
   transition: 0.4s;
 }
-.selengkapnya2 a{
-  color: rgb(161, 17, 17);
+.selengkapnya2 p{
   font-family: sans-serif;
   font-weight: bold;
+  font-size: 20px;
 }
 .selengkapnya2:hover{
+  color: rgb(202, 35, 35);
   opacity: 0.8;
 }
 .selengkapnya3{
   text-align: center;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   border-radius: 50px;
   background-color: black;
+  color: white;
   display: inline-block;
   margin-left: 590px;
   transition: 0.4s;
 }
-.selengkapnya3 a{
-  color: rgb(161, 17, 17);
+.selengkapnya3 p{
   font-family: sans-serif;
+  font-size: 20px;
   font-weight: bold;
 }
 .selengkapnya3:hover{
   opacity: 0.8;
+  color: rgb(202, 35, 35);
 }
