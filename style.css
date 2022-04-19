@@ -8,16 +8,20 @@ body{
   background-color: rgb(255, 255, 255);
 }
 header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
   background-color: rgb(0, 0, 0);
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
+  z-index: 1000;
 }
 .navigasi{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
 a{
   text-decoration: none;
@@ -41,9 +45,11 @@ a{
   display: flex;
   align-items: center;
   margin-right: 20px;
+  transition: 0.5s;
 }
 .list li{
   display: flex;
+  transition: 0.5s;
 }
 .list li a{
   color: rgb(255, 251, 251);
@@ -53,10 +59,56 @@ a{
   margin-left: 8px;
   font-weight: bold;
   transition: 0.5s;
+  text-decoration: none;
   font-family: 'Secular One', sans-serif;
 }
 .list li a:hover{
   color: rgb(202, 35, 35);
+}
+.navigasi .list ul{
+  position: absolute;
+  top: 60px;
+  display: none;
+  background-color: rgb(0, 0, 0);
+  color: black;
+  list-style-type:none;
+}
+.navigasi .list li:hover > ul{
+  display: block;
+  padding: 10px;
+  color: white;
+  padding-right: 0px;
+  text-decoration: none;
+}
+.navigasi .list ul li{
+  width: 130px;
+  float: none;
+  padding-top: 20px;
+  display: list-item;
+  position: relative;
+  text-decoration: none;
+}
+.bawah{
+  font-size: 16px;
+}
+.kotakawal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.kotakawaldalam{
+  background-color: black;
+  padding-right: 580px;
+  padding-left: 589px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.kotakawaljudul{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Secular One', sans-serif;
 }
 .gambar{
   background-size: cover;
@@ -194,14 +246,6 @@ a{
   transform: scale(1.05);
   box-shadow: 2px 5px 22px 2px rgba(0,0,0,0.75);
 }
-.kotak2dalamdalam{
-  margin-left: 20px;
-}
-.kotak2bacotan{
-  color: rgb(255, 255, 249);
-  font-family: 'Luxurious Roman', cursive;
-  margin-left: 30px;
-}
 
 .kotak3{
   align-items: center;
@@ -209,7 +253,6 @@ a{
   padding: 0px;
   padding-bottom: 50px;
   border-radius: 20px;
-  margin: 35px;
 }
 .kotak3judul{
   font-size: 30px;
@@ -221,20 +264,12 @@ a{
   transition: 0.5s;
 }
 .kotak3judul:hover{
-  color: brown;
+  color: rgb(255, 255, 255);
 }
 .kotak3dalam{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   padding-top: 20px;
   margin-bottom: 400px;
-}
-
-.kotak3dalamdalam{
-  margin-left: 20px;
-}
-.kotak3bacotan{
-  color: rgb(255, 255, 249);
-  font-family: 'Luxurious Roman', cursive;
 }
 
 .wrapper{
@@ -247,11 +282,11 @@ a{
   justify-content: space-around;
   padding-top: 40px;
   margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 30px;
 }
 .hover-animation{
-  position: relative;
+  position: absolute;
   height: 200px;
   width: 250px;
 }
@@ -268,21 +303,7 @@ a{
   cursor: pointer;
 }
 
-.box{
-  background-color: rgb(255, 255, 255);
-  padding: 30px;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 20px;
-}
-.gedung{
-  border-radius: 20px;
-  transition: 0.5s;
-}
-.gedung:hover{
-  transform: scale(1.05);
-  opacity: 0.5;
-}
+
 .baju1{
   font-size: 26px;
   font-weight: bold;
@@ -409,10 +430,10 @@ a{
 .kotakhoddie{
   align-items: center;
   background-color: rgb(255, 255, 255);
-  padding: 10px;
+  padding: 0px;
   padding-bottom: 50px;
   border-radius: 20px;
-  margin: 35px;
+  margin-top: 50px;
 }
 .kotakjktjudul{
   font-size: 30px;
@@ -424,7 +445,7 @@ a{
   transition: 0.5s;
 }
 .kotakjktjudul:hover{
-  color: brown;
+  color: white;
 }
 .kotakjktdalam{
   background-color: black;
@@ -448,10 +469,10 @@ a{
 }
 .wrapper2 div{
   justify-content: space-around;
-  padding-top: 35px;
+  padding-top: 40px;
   margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 30px;
 }
 .hover-animation{
   position: relative;
@@ -600,13 +621,43 @@ a{
   margin-top: 20px;
   transition: 0.5s;
 }
+.baju14{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: flex;
+  color: rgb(172, 44, 44);
+  margin-left: 84px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.baju14:hover{
+  color: rgb(41, 38, 38);
+}
+.ori14{
+  font-size: 16px;
+  font-family: sans-serif;
+  display: flex;
+  color: rgb(158, 149, 149);
+  margin-left: 73px;
+  transition: 0.5s;
+}
+.idr14{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: flex;
+  color: rgb(0, 0, 0);
+  margin-left: 82px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
 .kotaktopi{
   align-items: center;
   background-color: rgb(255, 255, 255);
   padding: 0px;
   padding-bottom: 50px;
   border-radius: 20px;
-  margin: 35px;
   margin-top: 40px;
 }
 .kotaktopijudul{
@@ -619,7 +670,7 @@ a{
   transition: 0.5s;
 }
 .kotaktopijudul:hover{
-  color: brown;
+  color: white;
 }
 .kotaktopidalam{
   background-color: black;
@@ -643,10 +694,10 @@ a{
 }
 .wrapper3 div{
   justify-content: space-around;
-  padding-top: 10px;
-  margin-bottom: 60px;
-  margin-left: 19px;
-  margin-right: 50px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 .hover-animation{
   position: relative;
@@ -898,8 +949,8 @@ a{
 .kotak4gambar:hover{
   transform: scale(1.01);
   box-shadow: 2px 5px 22px 2px rgba(0,0,0,0.75);
-
 }
+
 footer{
   display: flex;
   justify-content: center;
@@ -915,7 +966,6 @@ footer{
   font-family: 'Secular One', sans-serif;
   font-size: 15px;
 }
-
 .sponsor{
   margin-left: 500px;
 }
@@ -1013,8 +1063,8 @@ footer{
   text-align: center;
   padding: 20px;
   border-radius: 50px;
-  background-color: black;
-  color: white;
+  background-color: rgb(190, 184, 184);
+  color: rgb(0, 0, 0);
   display: inline-block;
   margin-left: 590px;
   margin-top: 30px;
@@ -1026,18 +1076,18 @@ footer{
   font-size: 20px;
 }
 .selengkapnya:hover{
-  color: rgb(202, 35, 35);
-  opacity: 0.8;
+  background-color: rgb(197, 23, 23);
+  color: white;
 }
 .selengkapnya2{
   text-align: center;
   padding: 20px;
   border-radius: 50px;
-  background-color: black;
-  color: white;
+  background-color: rgb(190, 184, 184);
+  color: black;
   display: inline-block;
   margin-left: 590px;
-  margin-top: 60px;
+  margin-top: 80px;
   transition: 0.4s;
 }
 .selengkapnya2 p{
@@ -1046,16 +1096,16 @@ footer{
   font-size: 20px;
 }
 .selengkapnya2:hover{
-  color: rgb(202, 35, 35);
-  opacity: 0.8;
+  background-color: rgb(197, 23, 23);
+  color: white;
 }
 .selengkapnya3{
   text-align: center;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 80px;
   border-radius: 50px;
-  background-color: black;
-  color: white;
+  background-color: rgb(190, 184, 184);
+  color: black;
   display: inline-block;
   margin-left: 590px;
   transition: 0.4s;
@@ -1066,6 +1116,6 @@ footer{
   font-weight: bold;
 }
 .selengkapnya3:hover{
-  opacity: 0.8;
-  color: rgb(202, 35, 35);
+  background-color: rgb(197, 23, 23);
+  color: white;
 }

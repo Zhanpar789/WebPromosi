@@ -7,16 +7,21 @@
     background-color: rgb(255, 255, 255);
   }
   header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
     background-color: rgb(0, 0, 0);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
+    z-index: 1000;
   }
   .navigasi{
+    transition: 0.5s;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
   }
   a{
     text-decoration: none;
@@ -57,6 +62,32 @@
   .list li a:hover{
     color: rgb(202, 35, 35);
   }
+  .navigasi .list ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    list-style-type:none;
+  }
+  .navigasi .list li:hover > ul{
+    display: block;
+    padding: 10px;
+    color: white;
+    padding-right: 0px;
+    text-decoration: none;
+  }
+  .navigasi .list ul li{
+    width: 130px;
+    float: none;
+    padding-top: 20px;
+    display: list-item;
+    position: relative;
+    text-decoration: none;
+  }
+  .bawah{
+    font-size: 16px;
+  }
   .kotak4{
     display: flex;
     flex-direction: column;
@@ -66,10 +97,10 @@
   }
   .kotak4dalam{
     background-color: black;
-    padding-right: 600px;
-    padding-left: 609px;
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-right: 584px;
+    padding-left: 585px;
+    padding-top: 130px;
+    padding-bottom: 90px;
   }
   .kotak4judul{
     text-align: center;
@@ -80,10 +111,10 @@
     align-items: center;
     background-color: rgb(255, 255, 255);
     padding: 0px;
-    margin-top: 400px;
+    margin-top: 50px;
     padding-bottom: 50px;
     border-radius: 20px;
-    margin: 35px;
+  
   }
   .kotak3judul{
     font-size: 30px;
@@ -115,7 +146,7 @@
     position: absolute;
     display: flex;
     justify-content: space-around;
-    margin-left: 0px;
+    margin-left: 40px;
   }
   .wrapper div{
     justify-content: space-around;
@@ -159,7 +190,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(158, 149, 149);
-    margin-left: 86px;
+    margin-left: 62px;
     transition: 0.5s;
   }
   .idr1{
@@ -178,7 +209,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(172, 44, 44);
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 20px;
     transition: 0.5s;
   }
@@ -190,7 +221,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(158, 149, 149);
-    margin-left: 66px;
+    margin-left: 52px;
     transition: 0.5s;
   }
   .idr2{
@@ -209,7 +240,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(172, 44, 44);
-    margin-left: 85px;
+    margin-left: 56px;
     margin-top: 20px;
     transition: 0.5s;
   }
@@ -221,7 +252,7 @@
     font-family: sans-serif;
     display: flex;
     color: rgb(158, 149, 149);
-    margin-left: 84px;
+    margin-left: 94px;
     transition: 0.5s;
   }
   .idr3{
@@ -265,11 +296,321 @@
     margin-top: 20px;
     transition: 0.5s;
   }
+  .baju5{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 89px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju5:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori5{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 50px;
+    transition: 0.5s;
+  }
+  .idr5{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 75px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju6{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 92px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju6:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori6{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 68px;
+    transition: 0.5s;
+  }
+  .idr6{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju7{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 0px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju7:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori7{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 60px;
+    transition: 0.5s;
+  }
+  .idr7{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju8{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 58px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju8:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori8{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 49px;
+    transition: 0.5s;
+  }
+  .idr8{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 83px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju9{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 76px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju9:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori9{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 30px;
+    transition: 0.5s;
+  }
+  .idr9{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju10{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 60px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju10:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori10{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 63px;
+    transition: 0.5s;
+  }
+  .idr10{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju11{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 60px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju11:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori11{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 78px;
+    transition: 0.5s;
+  }
+  .idr11{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju12{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 65px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju12:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori12{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 47px;
+    transition: 0.5s;
+  }
+  .idr12{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju13{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 65px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju13:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori13{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 30px;
+    transition: 0.5s;
+  }
+  .idr13{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju14{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(172, 44, 44);
+    margin-left: 65px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .baju14:hover{
+    color: rgb(41, 38, 38);
+  }
+  .ori14{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(158, 149, 149);
+    margin-left: 30px;
+    transition: 0.5s;
+  }
+  .idr14{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 79px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
   .wrapper2{
     position: absolute;
     display: flex;
     justify-content: space-around;
-    margin-left: 0px;
+    margin-left: 40px;
     margin-top: 410px;
   }
   .wrapper2 div{
@@ -284,7 +625,7 @@
     position: absolute;
     display: flex;
     justify-content: space-around;
-    margin-left: 0px;
+    margin-left: 40px;
     margin-top: 870px;
   }
   .wrapper3 div{
